@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{ 
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: indigo;
+}
+
+.header h1{
+    /* background-color: aqua; */
+    padding: 5px;
+    color: #fff;
+}
+
+.container-banner{
+    width: 100%;
+    height: 480 px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
