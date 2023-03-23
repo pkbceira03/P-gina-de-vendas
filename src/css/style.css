@@ -27,11 +27,75 @@ html, body{
 
 .container-banner{
     width: 100%;
-    height: 480 px;
+    height: 480px;
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
 }
 
+.container-banner > .center{
+    height: 100%;
+}
 
+.form{
+    padding: 10px;
+    width: 400px;
+    height: calc(100% + 30px);
+    position: relative;
+    top: -15px;
+    background-color: #fff;
+    border: 5px solid #ccc;
+    float: right;
+}
+
+.form h2{
+    font-weight: normal;
+    color: #999999;
+    font-size: 21px;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span, .form p{
+    display: inline-block;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px;
+}
+
+.form p{
+    margin: 20px 0;
+}
+
+.input-container input[type=text]{
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+}
+
+.form .input-submit-container{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    color: #fff;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: indigo;
+    cursor: pointer;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid blueviolet;
+}
+
+.form input[type=submit]:hover{
+    background-color: navy;
+    border-bottom: 5px solid indigo;
+}
 
