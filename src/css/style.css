@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html, body{
@@ -41,11 +42,14 @@ html, body{
     padding: 10px;
     width: 400px;
     height: calc(100% + 30px);
+    float: right;
     position: relative;
     top: -15px;
-    background-color: #fff;
-    border: 5px solid #ccc;
-    float: right;
+    border-width: 12px;
+    border-color: rgba(120,120,120,0.5);
+    border-style: solid;
+    background-color: white;
+    background-clip: padding-box;
 }
 
 .form h2{
@@ -97,5 +101,23 @@ html, body{
 .form input[type=submit]:hover{
     background-color: navy;
     border-bottom: 5px solid indigo;
+}
+
+.container-list{
+    padding: 30px;
+    margin-top: 40px;
+    float: left;
+    width: 620px;
+    height: 270px;
+    background-color: rgba(33,35,67,0.7);
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    color: white;
+    margin-top: 18px;
 }
 
