@@ -121,3 +121,30 @@ html, body{
     margin-top: 18px;
 }
 
+.container-descripition{
+    padding: 70px 0;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+.container-descripition h2{
+    font-weight: normal;
+}
+
+.container-descripition p{
+    width: 698px;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: justify;
+}
+
+.arrow{
+    position: relative;
+    top: -20px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/expand_circle_down_FILL0_wght400_GRAD0_opsz48.png');
+    background-size: 100% 100%;
+}
