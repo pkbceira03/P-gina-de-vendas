@@ -14,14 +14,14 @@ html, body{
 }
 
 .center{ 
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 2%;
 }
 
 .header{
-    min-width: 1200px;
     width: 100%;
+    padding: 0 2%;
     height: 50px;
     background-color: indigo;
 }
@@ -34,7 +34,7 @@ html, body{
 
 .container-banner{
     width: 100%;
-    min-width: 1200px;
+    padding: 0 2%;
     height: 480px;
     background-image: url(../images/banner.jpg);
     background-size: cover;
@@ -83,7 +83,7 @@ html, body{
 .input-container input[type=text]{
     margin-top: 8px;
     width: 344px;
-    height: 55px;
+    height: 40px;
     border: 1px solid #ccc;
 }
 
@@ -129,8 +129,7 @@ html, body{
 }
 
 .container-descripition{
-    min-width: 1200px;
-    padding: 40px 0;
+    padding: 40px 2%;
     background-color: #DDDDDD;
     text-align: center;
 }
@@ -140,7 +139,7 @@ html, body{
 }
 
 .container-descripition p{
-    width: 698px;
+    width: 100%;
     margin: 15px 0;
     display: inline-block;
     text-align: justify;
@@ -158,8 +157,7 @@ html, body{
 }
 
 .section-1{
-    min-width: 1200px;
-    padding: 90px 0;
+    padding: 90px 2%;
 }
 
 .section-1 h2{
